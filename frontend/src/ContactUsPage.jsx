@@ -107,13 +107,13 @@ export default function ContactUsPage({
                   <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/20 transition-all">
                     <Mail className="text-pink-400" size={20} />
                     <span className="text-white font-medium">
-                      support@surescreen.com
+                      pizzahut@rpgglobal.com
                     </span>
                   </div>
                   <div className="flex items-center gap-3 bg-white/10 backdrop-blur-sm px-6 py-3 rounded-full hover:bg-white/20 transition-all">
                     <Phone className="text-pink-400" size={20} />
                     <span className="text-white font-medium">
-                      +1 (555) 123-4567
+                      0112 729 729
                     </span>
                   </div>
                 </div>
