@@ -269,7 +269,7 @@ export default function VisualisationsPage({
                     >
                       <p
                         className="font-semibold mb-2"
-                        style={{ color: data.color }} // <-- highlight group color
+                        style={{ color: data.color }} 
                       >
                         {data.group}
                       </p>
