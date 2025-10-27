@@ -273,29 +273,29 @@ export default function VisualisationsPage({
                       >
                         {data.group}
                       </p>
-                      <div className="space-y-1 text-sm">
+                      <div className="space-y-1 text-sm text-cyan-800">
                         <p>
-                          <span className="font-medium">Min:</span>{" "}
+                          <span className="font-medium text-cyan-800">Min:</span>{" "}
                           {data.min.toFixed(2)}
                         </p>
                         <p>
-                          <span className="font-medium">Q1:</span>{" "}
+                          <span className="font-medium text-cyan-800">Q1:</span>{" "}
                           {data.q1.toFixed(2)}
                         </p>
                         <p>
-                          <span className="font-medium">Median:</span>{" "}
+                          <span className="font-medium text-cyan-800">Median:</span>{" "}
                           {data.median.toFixed(2)}
                         </p>
                         <p>
-                          <span className="font-medium">Q3:</span>{" "}
+                          <span className="font-medium text-cyan-800">Q3:</span>{" "}
                           {data.q3.toFixed(2)}
                         </p>
                         <p>
-                          <span className="font-medium">Max:</span>{" "}
+                          <span className="font-medium text-cyan-800">Max:</span>{" "}
                           {data.max.toFixed(2)}
                         </p>
                         <p className="pt-1 border-t">
-                          <span className="font-medium">Mean:</span>{" "}
+                          <span className="font-medium text-cyan-800">Mean:</span>{" "}
                           {data.mean.toFixed(2)}
                         </p>
                       </div>
