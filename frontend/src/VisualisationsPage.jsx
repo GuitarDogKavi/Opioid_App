@@ -267,7 +267,10 @@ export default function VisualisationsPage({
                       className="bg-white p-4 border-2 rounded-lg shadow-lg"
                       style={{ borderColor: data.color }}
                     >
-                      <p className="font-semibold text-gray-800 mb-2">
+                      <p
+                        className="font-semibold mb-2"
+                        style={{ color: data.color }} // <-- highlight group color
+                      >
                         {data.group}
                       </p>
                       <div className="space-y-1 text-sm">
