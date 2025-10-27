@@ -95,14 +95,14 @@ export default function AboutUsPage({ darkMode, setDarkMode, setCurrentPage }) {
                 </div>
 
                 <div className="relative flex flex-col gap-12">
-                    <div className="w-full h-[320px] bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl border-2 border-dashed border-white/30 overflow-hidden">
+                    <div className="w-full h-[320px] bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl border-2 border-white/30 overflow-hidden">
                         <img
                             src={AIImage}
                             alt="Team or Illustration"
                             className="w-full h-full object-cover rounded-2xl shadow-2xl"
                         />
                     </div>
-                    <div className="w-full h-[320px] bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl border-2 border-dashed border-white/30 overflow-hidden">
+                    <div className="w-full h-[320px] bg-gradient-to-br from-white/10 to-white/5 backdrop-blur-sm rounded-2xl border-2 border-white/30 overflow-hidden">
                         <img
                             src={teamImage}
                             alt="Team or Illustration 2"
